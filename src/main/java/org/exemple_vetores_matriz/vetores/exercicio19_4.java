@@ -1,11 +1,10 @@
 package org.exemple_vetores_matriz.vetores;
 
-import static java.lang.Math.pow;
+public class exercicio19_4 {
+    public static void main(String[] args){
 
-public class exercicio19_3 {
-
-    public static void main(String[] args) {
         int[] vetorA = new int[15];
+
 
         vetorA[0] = 50;
         vetorA[1] = 16;
@@ -23,12 +22,9 @@ public class exercicio19_3 {
         vetorA[13] = 30;
         vetorA[14] = 6;
 
-        for(int vetor : vetorA){
-           int vetorB = vetor * vetor;
-           System.out.println(vetorB);
+        for(int vetor: vetorA){
+            int vetorB =(int) Math.pow(vetor, 2);
+            System.out.println("vetorB: " + vetorB);
         }
-
-
     }
-
 }

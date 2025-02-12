@@ -18,6 +18,5 @@ public class exercicio19_2 {
             int vetorB = (int) Math.pow(vetor,2);
             System.out.println("vetorB: " + vetorB);
         }
-
     }
 }
