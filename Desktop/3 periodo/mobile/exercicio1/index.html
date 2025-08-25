@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Conectando API</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <nav class="container navegacao">
+            <div class="logo">
+                <h1>Busca<strong>Placas</strong></h1>
+            </div>
+            <button class="botao-menu">☰</button>
+            <ul class="menu">
+                <li>
+                    <a href="">Consulta</a>
+                </li>
+                <li>
+                    <a href="">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="destaque">
+    <div class="container">
+        
+        
+        <div class="coluna-esquerda">
+            <div class="texto">
+                <h1>Quer informações detalhadas de um veículo? Consulte a placa!</h1>
+                <p>Consulte placa de qualquer veículo e acesse dados essenciais em minutos.</p>
+            </div>
+            <div class="busca">
+                <input type="text" id="placa" placeholder="            ABC-1234">
+                 <button class="botao" onclick="buscarPlaca()">Procurar</button>
+            </div>
+        </div>
+
+        
+        <div class="coluna-direita">
+            <img src="img/bannerSite.png" alt="carro">
+        </div>
+
+    </div>
+</section>
+
+    <section class="recursos">
+        <h2>Procure por: </h2>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="carros">
+                    <img src="img/chevrolet.png" alt="" height="100" width="100">
+                </div>
+                <div class="motos">
+                    <img src="img/fiat.png" alt="" height="100" width="100">
+                </div>
+                <div class="caminhoes">
+                    <img src="img/jeep.png" alt="" height="100" width="100">
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
